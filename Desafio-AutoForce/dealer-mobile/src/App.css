@@ -1,0 +1,136 @@
+body {
+  background-color: #282c34;
+  width           : 100vw;
+  height          : 100vh;
+  margin          : 0;
+  font-family     : Arial;
+  font-weight     : bold;
+}
+
+.header {
+  display         : flex;
+  align-items     : center;
+  color           : white;
+  background-color: black;
+  justify-content : space-between;
+  padding         : 5px;
+}
+
+.header h1 {
+  padding-right: 10px;
+
+}
+
+.header .phone {
+  background-color: red;
+  border-radius   : 50%;
+  height          : 42px;
+  width           : 42PX;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+}
+
+header .whattsapp img {
+  border-radius: 50%;
+  height       : 42px;
+  width        : 42PX;
+}
+
+.Fiat img {
+  height: 35px;
+  width : 45PX;
+}
+
+img {
+  padding: 10px;
+}
+
+modal {
+  display              : block;
+  align-items          : center;
+  justify-content      : center;
+  position             : relative;
+  background-attachment: +1;
+}
+
+modal .select {
+  background-color: red;
+}
+
+modal .select a {
+  border-bottom: none;
+}
+
+modal .institucional {
+  padding-left: 42px;
+}
+
+modal a {
+  padding-top    : 20px;
+  padding-bottom : 20px;
+  padding-right  : 10px;
+  display        : flex;
+  justify-content: flex-start;
+  border-bottom  : 1px solid rgb(187, 178, 184);
+  font-size      : 1.25rem;
+}
+
+a {
+  color          : white;
+  text-decoration: none;
+  max-width      : 85%;
+  margin         : auto;
+}
+
+footer {
+  background-color: #1b1c1d;
+  padding         : 20px;
+  margin          : auto;
+  display         : block;
+  align-items     : center;
+  justify-content : center;
+  text-align      : center;
+}
+
+footer .barra {
+  display         : flex;
+  background-color: white;
+  border-radius   : 50px;
+  height          : 10px;
+  margin-bottom   : 10px;
+}
+
+footer .barra .progresso {
+  margin       : 0;
+  display      : flex;
+  background   : linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(233, 218, 14) 0%, rgba(255, 0, 0, 1) 100%);
+  height       : 10px;
+  margin-bottom: 10px;
+  width        : 50%;
+  border-radius: 50px;
+}
+
+footer .button {
+  margin-top: 60px;
+}
+
+footer .button a {
+  font-size          : 1rem;
+  border             : 2px solid red;
+  margin             : auto;
+  padding            : 20px 80px;
+  position           : relative;
+  background-position: -2;
+}
+
+footer .whattsapp {
+  position: relative;
+  left    : 150px;
+}
+
+footer .whattsapp img {
+  border-radius: 50%;
+  height       : 70px;
+  width        : 70PX;
+}
